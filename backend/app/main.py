@@ -26,6 +26,7 @@ allow_origins=[
     "http://localhost:8080",
     "http://localhost:8081",
     "http://localhost:8082",
+    "https://developer-toolkit-4h30o9ld2-fi-ve1.vercel.app",
 ],
     allow_credentials=True,
     allow_methods=["*"],
