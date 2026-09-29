@@ -25,7 +25,7 @@ export const Route = createFileRoute("/history")({
 });
 
 function formatDate(iso: string) {
-  return new Date(iso).toLocaleString(undefined, {
+  return new Date(iso.replace(" ", "T") + "Z").toLocaleString(undefined, {
     day: "2-digit",
     month: "short",
     year: "numeric",
